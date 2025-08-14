@@ -130,10 +130,10 @@ int main(){
  printf(" ====================== \n");
 
   // COMPARAÇÃO DE CARTAS 
-  printf(" ====================== \n");
+  printf(" ======================================================================= \n");
   printf(" *** Aqui irá sair o comparativo das cartas *** \n");
   printf("Explicação: Resultado (1) ponto carta 1, Resultado (0) ponto carta 2\n");
-  printf(" ====================== \n");
+  printf(" ======================================================================= \n");
 
  
  printf("O Super Poder da carta 1 é maior (1) ou menor(0) que o Super Poder da carta 2: %.1f\n", SuperPoder1 > SuperPoder2);
