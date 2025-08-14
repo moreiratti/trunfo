@@ -126,14 +126,41 @@ int main(){
  printf("Área: %f\n", area2);
  printf("PIB: %f\n", pib2);
  printf("Densidade Populacional: %f\n", DensidadePopulacional2); 
- printf("PIB per Capita: %f\n", PibPerCapita2); 
+ printf("PIB per Capita: %f\n", PibPerCapita2);
  printf(" ====================== \n");
 
   // COMPARAÇÃO DE CARTAS 
+  printf(" ====================== \n");
+  printf(" *** Aqui irá sair o comparativo das cartas *** \n");
+  printf("Explicação: Resultado (1) ponto carta 1, Resultado (0) ponto carta 2\n");
+  printf(" ====================== \n");
+
  
- printf("Super Poder 1 > Super Poder 2:\n",SuperPoder1, SuperPoder2);
+ printf("O Super Poder da carta 1 é maior (1) ou menor(0) que o Super Poder da carta 2: %.1f\n", SuperPoder1 > SuperPoder2);
+ printf("A População da carta 1 é maior (1) ou menor (0) que a População da carta 2: %.1lu\n", populacao1 > populacao2);
+ printf("A Área da carta 1 é maior(1) ou menor (0) que a Área da carta 2: %.1f\n", area1 > area2 );
+ printf("O PIB da carta 1 é maior (1) ou menor (0) que o PIB da carta 2: %.1f\n", pib1 > pib2);
+ printf("A cidade da carta 1 tem mais (1) ou menos (0) Pontos Turisticos que a cidade da carta 2: %d\n", Pontosturisticos1 > Pontosturisticos2);
+ printf("A Densidade Populacional da carta 1 é menor (1) ou maior (0) que a Densidade Populacional da carta 2: %.1f\n", DensidadePopulacional1 < DensidadePopulacional2);
+ printf("O PIB per Capita da cidade da carta 1 é maior (1) ou menor (0) que o Pib per Capita da carta 2 %.1f\n", PibPerCapita1 > PibPerCapita2);
+ 
 
 
 
- return 0;
-{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
